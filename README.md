@@ -2,6 +2,13 @@
 
 ## 2017
 
+### [EARL2017]()
+September 14, 2017 - London, UK
+
+PDF : [Slides without animated GIF](https://github.com/rladies/rladies_global_presentations/blob/master/20170914_EARLLDN/R-Ladies_EARL2017.pdf)
+
+google slides: [Slides with animated GIF](https://docs.google.com/presentation/d/1IT9kI3W8QA45_ytklTy4KXdo_nHlSRSbFLX5z1zASO0/edit?usp=sharing)
+
 ### [user2017](https://user2017.brussels/)
 July 5, 2017 - Brussels, Belgium
 
