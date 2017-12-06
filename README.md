@@ -2,6 +2,10 @@
 
 ## 2017
 
+### [WSDS2017 - Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2017/)
+October 21, 2017 - La Jolla, CA, USA
+PDF : [Slides without animated GIF]()
+
 ### [EARL2017]()
 September 14, 2017 - London, UK
 
