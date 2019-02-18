@@ -46,7 +46,7 @@ color:white!important;
 </tr>
 <tr><td><center>
 <a title="R-Ladies email" href="mailto:info@rladies.org" target="_top">
-  **R-Ladies Global**
+  **R-Ladies Global (www.rladies.org)**
   </a></center></td>
 </tr>
 </table> 
@@ -60,7 +60,7 @@ color:white!important;
 
 R-Ladies is an organization with the mission of promoting diversity in the R Community via meetups and mentorships in a safe and friendly environment.
 
-**R-Ladies Leadership Team:** 
+**R-Ladies Leadership Team (current):** 
 <img src="img/leadership.png" style="width:90%"></img>
 
 **R-Ladies Global Team:** 
@@ -104,6 +104,12 @@ This account is run by R-Ladies Global.
 
 Feedback on various types of R-related abstracts, applications and diversity scholarships to encourage R-Ladies to apply for conference speaking slots and opportunites. 
 
+****
+
+<a href="https://github.com/rladies/rladies-collaborations">**R-Ladies Collaborations**</a> - Team: Melina Vidoni, Sina Rüeger + other volunteers <br>
+
+Capture R-Ladies collaborations in a single portfolio. R-Ladies around the world often work with organizations, ONGs, and other groups, producing contributions, participation, involvement or associations of talks, workshops, projects, conference, etc. And they directly impact the R community.
+
 
 
 ### **R-Ladies Initiatives**
@@ -115,7 +121,7 @@ R-Ladies community Slack is a safe & global space to discuss topics and share id
 
 ****
 
-<a href="https://twitter.com/rladies_iwd2018">**@rladies_iwd2018**</a> - Team: Maëlle Salmon, Bea Hernández, Kelly O’Briant, Page Piccinini, Sheila Saia + other volunteers <br>
+<a href="https://twitter.com/rladies_iwd2018">**R-Ladies Internation Women Day (@rladies_iwd2018)**</a> - Team: Maëlle Salmon, Bea Hernández, Kelly O’Briant, Page Piccinini, Sheila Saia + other volunteers <br>
   <img src="img/rladies_dir.png" style="width:100%"></img>
   
 Internation Women Day celebrating with a fabulous feed of featured profiles from the R-Ladies directory.
@@ -143,9 +149,9 @@ List of profiles from R-Ladies around the world, located by country.
 ****
 ****
 
-#### **What is coming?**
+#### **What is next?**
 
-<font color="#88398a">R-Ladies will be soon a 501c3. 
+<font color="#88398a">R-Ladies will be a 501c3 soon. 
 <img src="img/donate.png" style="width:100%"></img>
 
 <b>If you want to sponsor, donate or support us, send us an email to: info@rladies.org</b></font>
