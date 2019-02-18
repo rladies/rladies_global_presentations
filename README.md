@@ -1,5 +1,13 @@
 # R-Ladies Presentations :earth_africa::earth_americas:
 
+## 2019
+
+### [rstudio::conf 2019](https://www.rstudio.com/conference/)
+Jan 16, 2019 - Austin, TX, USA
+
+Folder: [20190116_RStudio_Conf_eposter](/20190116_RStudio_Conf_eposter)
+
+
 ## 2017
 
 ### [WSDS2017 - Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2017/)
