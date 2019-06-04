@@ -2,6 +2,13 @@
 
 ## 2019
 
+### [SDSS 2019](https://ww2.amstat.org/meetings/sdss/2019/onlineprogram/index.cfm)
+May 30, 2019 - Bellevue, WA, USA
+
+PDF: [2019-05-30_SDSS.pdf](20190530_SDSS2019/2019-05-30_SDSS.pdf)
+
+
+
 ### [rstudio::conf 2019](https://www.rstudio.com/conference/)
 Jan 16, 2019 - Austin, TX, USA
 
