@@ -2,6 +2,12 @@
 
 ## 2019
 
+### [CascadiaRConf 2019](cascadiarconf.com)
+June 08, 2019 - Bellevue, WA, USA
+
+PDF: [2019-06-08_CascadiaRConf.pdf](20190608_CascadiaRConference/2019-06-08_CascadiaRConf.pdf)
+
+
 ### [SDSS 2019](https://ww2.amstat.org/meetings/sdss/2019/onlineprogram/index.cfm)
 May 30, 2019 - Bellevue, WA, USA
 
