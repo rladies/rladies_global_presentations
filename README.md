@@ -2,6 +2,11 @@
 
 ## 2019
 
+### [American Geophysical Union (AGU) Fall Meeting 2019](https://www.agu.org/fall-meeting)
+December 9 - 13, 2019 - San Francisco, CA, USA
+
+PDF: [r-ladies_agu_2019_poster_final.pdf](20191211_AGU2019/r-ladies_agu_2019_poster_final.pdf)
+
 ### [LatinR 2019](https://latin-r.com)
 September 26, 2019 - Santiago, Chile
 
