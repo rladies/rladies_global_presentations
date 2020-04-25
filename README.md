@@ -18,7 +18,7 @@ PDF: [r-ladies_agu_2019_poster_final.pdf](20191211_AGU2019/r-ladies_agu_2019_pos
 ### [LatinR 2019](https://latin-r.com)
 September 26, 2019 - Santiago, Chile
 
-PDF: [Poster_RLadies_LatinR2019.pdf](LatinR2019/Poster_RLadies_LatinR2019.pdf)
+PDF: [Poster_RLadies_LatinR2019.pdf](20190926_LatinR/Poster_RLadies_LatinR2019.pdf)
 
 ### [useR! 2019](http://user2019.r-project.org/)
 July 08, 2019 - Toulouse, France
