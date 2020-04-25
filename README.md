@@ -1,5 +1,13 @@
 # R-Ladies Presentations :earth_africa::earth_americas:
 
+## 2020
+
+### rstudio::conf 2020
+
+January 27-30, 2020 - San San Francisco, CA, USA
+
+PDF: [RLadies_rstudioconf_2020.pdf](20200129_rstudioconf/RLadies_rstudioconf_2020.pdf)
+
 ## 2019
 
 ### [American Geophysical Union (AGU) Fall Meeting 2019](https://www.agu.org/fall-meeting)
