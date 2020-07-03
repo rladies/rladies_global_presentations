@@ -2,6 +2,12 @@
 
 ## 2020
 
+### EGU General Assembly 2020
+
+4–8 May 2020, Online
+
+PDF: [RLadies_EGU2020_presentation.pdf](https://github.com/rladies/rladies_global_presentations/blob/master/20200508_EGU2020/RLadies_EGU2020_presentation.pdf)
+
 ### rstudio::conf 2020
 
 January 27-30, 2020 - San San Francisco, CA, USA
