@@ -6,13 +6,13 @@
 library(tidyverse)
 library(jsonlite)
 library(maps)
-library(sf) 
+library(sf)
 
 
 chapters_data <- jsonlite::fromJSON("https://raw.githubusercontent.com/rladies/meetup_archive/main/data/chapters_meetup.json")
 events_data <- jsonlite::fromJSON("https://raw.githubusercontent.com/rladies/meetup_archive/main/data/events.json")
 
-# Date of extraction assumed to be roughly today's date given github actions 
+# Date of extraction assumed to be roughly today's date given github actions
 # updates json daily
 date_extraction <- paste(format(Sys.Date(), "%B"), year(Sys.Date()))
 
@@ -58,7 +58,7 @@ ggplot() +
   theme(
     plot.margin = margin(10, 10, 10, 10),
     plot.title = element_text(
-      face = "bold", size = rel(1.4),
+      face = "bold", size = rel(2),
       family = "Montserrat",
       colour = "#88398A",
       margin = margin(
@@ -69,64 +69,45 @@ ggplot() +
     plot.caption = element_text(hjust = 0, family = "Montserrat")
   )
 
-ggsave("plots/chapters_maps/2024-chapter-map.png", width = 5.5, height = 3, bg = "white")
+ggsave(paste0("figures/", Sys.Date(),"-chapter-map.png"), width = 5.5, height = 3, bg = "white")
 
 # Events bar chart --------------------------------------------------------
 
-events_bar_data <- events_data |>
+events_data_clean <- events_data |>
   mutate(year = as.character(year(date))) |>
-  count(year) |>
   filter(year != 2038)
+
+num_events <- prettyNum(nrow(events_data_clean), big.mark = ",")
+
+
+events_bar_data <- events_data_clean |>
+  count(year)
 
 ggplot(events_bar_data) +
   geom_col(aes(x = year, y = n), fill = "#88398A") +
-  geom_text(aes(x = year, y = n + 40, label = n), colour = "#88398A") +
-  labs(title = "R-Ladies Events", x = "", y = "Number of events",
-       caption = paste0("Source: meetup.com (", date_extraction, ")")) +
-  theme_minimal(base_size = 10) +
+  geom_text(aes(x = year, y = n + 40, label = n), colour = "#88398A", family = "Montserrat") +
+  labs(title = paste(num_events, "R-Ladies Events"),
+       x = "", y = "Number of events",
+       caption = paste0("Data from meetup.com (", date_extraction, ") | Originally created by Nicola Rennie for IWD Campaign")
+       ) +
+  theme_void(base_size = 10) +
   theme(
     plot.margin = margin(10, 10, 10, 10),
     plot.title = element_text(
-      face = "bold", size = rel(1.4),
+      face = "bold", size = rel(2),
       colour = "#88398A",
       margin = margin(
         t = 0, r = 0, b = 6.6,
         l = 0, unit = "pt"
-      )
+      ),
+      family = "Montserrat"
     ),
-    plot.caption = element_text(hjust = 0)
-  )
+    plot.caption = element_text(hjust = 0,    family = "Montserrat"),
+    axis.text.x = element_text(family = "Montserrat", angle = 45),
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 1000))
 
-ggsave("plots/chapters_maps/2024-events-bar.png", width = 5.5, height = 3, bg = "white")
+ggsave(paste0("figures/", Sys.Date(),"-events-bar.png"), width = 5.5, height = 3, bg = "white")
 
-# Events bar chart --------------------------------------------------------
-
-first_events_bar_data <- events_data |>
-  group_by(group_urlname) |> 
-  slice_min(date) |> 
-  ungroup() |> 
-  mutate(year = as.character(year(date))) |>
-  count(year) |>
-  filter(year != 2038)
-
-ggplot(first_events_bar_data) +
-  geom_col(aes(x = year, y = n), fill = "#88398A") +
-  geom_text(aes(x = year, y = n + 8, label = n), colour = "#88398A") +
-  labs(title = "New R-Ladies Chapters", x = "", 
-       y = "Number of new chapters",
-       caption = "Source: meetup.com (March 2024)") +
-  theme_minimal(base_size = 10) +
-  theme(
-    plot.margin = margin(10, 10, 10, 10),
-    plot.title = element_text(
-      face = "bold", size = rel(1.4),
-      colour = "#88398A",
-      margin = margin(
-        t = 0, r = 0, b = 6.6,
-        l = 0, unit = "pt"
-      )
-    ),
-    plot.caption = element_text(hjust = 0)
-  )
-
-ggsave("plots/chapters_maps/2024-first-events-bar.png", width = 5.5, height = 3, bg = "white")
