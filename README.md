@@ -1,4 +1,4 @@
-# R-Ladies Presentations :earth_africa::earth_americas:
+# RLadies+ Presentations :earth_africa::earth_americas:
 
 ## 2020
 
